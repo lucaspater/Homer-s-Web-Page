@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  background: #78bbcb;
+}
+
+header {
+  display: flex;
+}
+
+h1 {
+  font-size: 80px;
+  justify-content: center;
+  text-align: center;
+  font-family: "Homer Simpson Revised", sans-serif;
+  margin-top: 50px;
+  animation: efectoh1 2s 3 alternate;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  padding: 1rem;
+}
+
+div {
+  width: 170px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.div3 {
+  width: 220px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  animation: cristo 2s ease-in-out 5 alternate;
+}
+
+.div5 {
+  justify-content: space-around;
+}
+
+@keyframes efectoh1 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes cristo {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
